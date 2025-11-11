@@ -1,0 +1,13 @@
+{
+  "name": "problem1",
+  "version": "0.1.0",
+  "main": "solution.js",
+  "type": "module",
+  "scripts": {
+    "start": "node solution.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}

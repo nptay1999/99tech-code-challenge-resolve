@@ -1,0 +1,82 @@
+# ===============================
+# Node.js / JavaScript
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-debug.log
+
+# ===============================
+# Build / Output
+# ===============================
+dist/
+build/
+out/
+coverage/
+.cache/
+.temp/
+.tmp/
+.eslintcache
+.stylelintcache
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# ===============================
+# Environment Files
+# ===============================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===============================
+# OS-specific
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# TypeScript
+# ===============================
+*.tsbuildinfo
+
+# ===============================
+# Monorepo specific
+# ===============================
+# Ignore nested node_modules inside packages
+**/node_modules/
+
+# Ignore build outputs inside packages/apps
+src/*/dist/
+src/*/build/
+
+# Ignore lock files in sub-packages (keep only at root)
+src/*/package-lock.json
+src/*/yarn.lock
+src/*/pnpm-lock.yaml
+
+# ===============================
+# Testing / Coverage
+# ===============================
+coverage/
+.nyc_output/
+
+# ===============================
+# Misc
+# ===============================
+*.log
+*.tgz
+*.zip
+*.tar
