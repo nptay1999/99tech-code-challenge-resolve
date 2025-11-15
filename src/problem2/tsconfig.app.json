@@ -23,6 +23,7 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
+    "typeRoots": ["node_modules", "src/types.d.ts"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
