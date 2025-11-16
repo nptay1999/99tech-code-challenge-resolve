@@ -1,7 +1,7 @@
 import { Switch } from "@/components/ui/switch";
 import { Button } from "@/components/ui/button";
 import { Moon, Sun } from "lucide-react";
-import { useDarkMode } from "@/DarkMode.context";
+import { useDarkMode } from "@/contexts/DarkMode.context";
 import { tv } from "tailwind-variants";
 
 const iconAnimationVariants = tv({

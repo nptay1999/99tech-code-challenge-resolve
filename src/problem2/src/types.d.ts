@@ -10,6 +10,14 @@ export type TDarkModeContext = {
   toggleMode: () => void;
 };
 
+export type TTradePanelState = {
+  fromToken: TTokenPriceResponse;
+  setFromToken: (token: TTokenPriceResponse) => void;
+  toToken: TTokenPriceResponse;
+  setToToken: (token: TTokenPriceResponse) => void;
+  tokenPrices: Record<string, TTokenPriceResponse>;
+};
+
 declare module "i18next" {
   // Extend CustomTypeOptions
   interface CustomTypeOptions {
@@ -23,3 +31,19 @@ declare module "i18next" {
     };
   }
 }
+
+export type TTokenPriceResponse = {
+  currency: string;
+  date: string;
+  price: number;
+};
+
+export type TQueryConfigs<
+  TQueryFnData = unknown,
+  TError = DefaultError,
+  TData = TQueryFnData,
+  TQueryKey extends QueryKey = QueryKey
+> = Omit<
+  UseQueryOptions<TQueryFnData, TError, TData, TQueryKey>,
+  "queryKey" | "queryFn"
+>;

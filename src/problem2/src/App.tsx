@@ -1,6 +1,5 @@
-import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
-import DarkModeProvider from "@/DarkMode.context";
+import DarkModeProvider from "@/contexts/DarkMode.context";
 import Footer from "@/components/Footer/Footer";
 import {
   containerVariants,
@@ -8,18 +7,17 @@ import {
   mainVariants,
   footerVariants,
 } from "@/lib/variants";
-import { useTranslation } from "react-i18next";
+import TradePanel from "@/components/TradePanel";
+import { Toaster } from "@/components/ui/sonner";
 
 function App() {
-  const { t } = useTranslation();
-
   return (
     <DarkModeProvider>
       <div className={containerVariants()}>
+        <Toaster />
         <Header className={headerVariants()} />
         <main className={mainVariants()}>
-          <h1 className="text-red-500 text-2xl">{t("HELLO")}</h1>
-          <Button>Click me</Button>
+          <TradePanel />
         </main>
         <Footer className={footerVariants()} />
       </div>

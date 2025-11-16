@@ -1,5 +1,30 @@
 {
-  "HELLO": "Hola",
+  "TRADE_PANEL/CONVERT_FROM_TO_TOKENS": "Convertir <from>{{fromToken}}</from> a <to>{{toToken}}</to>",
+  "TRADE_PANEL/ZERO_FEES": "{{fee}}% Tarifas",
+  "TRADE_PANEL/LOWER_LIMITS": "Límites más bajos",
+  "TRADE_PANEL/SIMPLE_TRANSACTIONS": "Transacciones simples",
+  "TRADE_PANEL/CONVERT": "Convertir",
+  "TRADE_PANEL/EXCHANGE_RATE": "Tipo de cambio",
+  "TRADE_PANEL/PREVIEW": "Vista previa",
+  "TRADE_PANEL/FROM": "Desde",
+  "TRADE_PANEL/TO": "A",
+  "TRADE_PANEL/AVAILABLE": "Disponible: {{amount}} {{token}}",
+
+  "CONFIRM_MODAL/CONFIRM_SWAP": "Confirmar intercambio de {{from}} a {{to}}",
+  "CONFIRM_MODAL/SWAP": "Intercambiar",
+  "CONFIRM_MODAL/MINIMUM_RECEIVE": "Recepción mínima",
+  "CONFIRM_MODAL/PROVIDER_FEES": "Tarifas del proveedor",
+  "CONFIRM_MODAL/FEES": "Tarifas",
+  "CONFIRM_MODAL/HIGHER_FEES_MAY_APPLY_TO_SWAPS_WHEN_NETWORK_IS_CONGESTED": "Pueden aplicarse tarifas más altas a los intercambios cuando la red está congestionada. Verifique los detalles de la transacción cuidadosamente antes de confirmar.",
+  "CONFIRM_MODAL/CURRENCY_SWAPPED_SUCCESSFULLY": "¡Moneda intercambiada con éxito!",
+  "CONFIRM_MODAL/CONFIRM": "Confirmar",
+
+  "VALIDATION/TOKEN_IS_REQUIRED": "El token es requerido",
+  "VALIDATION/AMOUNT_MUST_BE_A_NUMBER": "La cantidad debe ser un número",
+  "VALIDATION/AMOUNT_MUST_BE_GREATER_THAN_ZERO": "La cantidad debe ser mayor que cero",
+  "VALIDATION/AMOUNT_MINIMUM": "Mínimo 0.00002",
+  "VALIDATION/AMOUNT_MAXIMUM": "Máximo 1,000",
+  "VALIDATION/INSUFFICIENT_FUNDS": "Fondos insuficientes",
 
   "FOOTER/BUILT_BY_ME_THE_SOURCE_CODE_IS_AVAILABLE_ON_GITHUB": "Creado por <s>nptay1999</s>. El código fuente está disponible en <a>GitHub</a>."
 }

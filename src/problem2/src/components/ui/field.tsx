@@ -216,9 +216,9 @@ function FieldError({
     );
   }, [children, errors]);
 
-  if (!content) {
-    return null;
-  }
+  // if (!content) {
+  //   return null;
+  // }
 
   return (
     <div
