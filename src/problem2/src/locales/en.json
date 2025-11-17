@@ -1,0 +1,30 @@
+{
+  "TRADE_PANEL/CONVERT_FROM_TO_TOKENS": "Convert <from>{{fromToken}}</from> to <to>{{toToken}}</to>",
+  "TRADE_PANEL/ZERO_FEES": "{{fee}}% Fees",
+  "TRADE_PANEL/LOWER_LIMITS": "Lower limits",
+  "TRADE_PANEL/SIMPLE_TRANSACTIONS": "Simple transactions",
+  "TRADE_PANEL/CONVERT": "Convert",
+  "TRADE_PANEL/EXCHANGE_RATE": "Exchange Rate",
+  "TRADE_PANEL/PREVIEW": "Preview",
+  "TRADE_PANEL/FROM": "From",
+  "TRADE_PANEL/TO": "To",
+  "TRADE_PANEL/AVAILABLE": "Available: {{amount}} {{token}}",
+
+  "CONFIRM_MODAL/CONFIRM_SWAP": "Confirm swap for {{from}} to {{to}}",
+  "CONFIRM_MODAL/SWAP": "Swap",
+  "CONFIRM_MODAL/MINIMUM_RECEIVE": "Minimum receive",
+  "CONFIRM_MODAL/PROVIDER_FEES": "Provider fees",
+  "CONFIRM_MODAL/FEES": "Fees",
+  "CONFIRM_MODAL/HIGHER_FEES_MAY_APPLY_TO_SWAPS_WHEN_NETWORK_IS_CONGESTED": "Higher fees may apply to swaps when network is congested. Check transaction details thoroughly before confirming.",
+  "CONFIRM_MODAL/CURRENCY_SWAPPED_SUCCESSFULLY": "Currency swapped successfully!",
+  "CONFIRM_MODAL/CONFIRM": "Confirm",
+
+  "VALIDATION/TOKEN_IS_REQUIRED": "Token is required",
+  "VALIDATION/AMOUNT_MUST_BE_A_NUMBER": "Amount must be a number",
+  "VALIDATION/AMOUNT_MUST_BE_GREATER_THAN_ZERO": "Amount must be greater than zero",
+  "VALIDATION/AMOUNT_MINIMUM": "Minimum 0.00002",
+  "VALIDATION/AMOUNT_MAXIMUM": "Maximum 1,000",
+  "VALIDATION/INSUFFICIENT_FUNDS": "Insufficient funds",
+
+  "FOOTER/BUILT_BY_ME_THE_SOURCE_CODE_IS_AVAILABLE_ON_GITHUB": "Built by<s>nptay1999</s>. The source code is available on <a>GitHub</a>."
+}

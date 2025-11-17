@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test:problem1": "pnpm --filter problem1 run test",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:problem2": "pnpm --filter problem2 dev",
+    "build:problem2": "pnpm --filter problem2 build",
+    "lint:problem2": "pnpm --filter problem2 lint",
+    "format:problem2": "pnpm --filter problem2 format"
   },
   "keywords": [],
   "author": "",
