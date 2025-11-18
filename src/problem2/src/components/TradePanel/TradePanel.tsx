@@ -14,14 +14,12 @@ import ConfirmModal from "../ConfirmModal";
 function TradePanel() {
   const formId = useId();
   const [swapData, setSwapData] = useState<TConvertSchema>();
-  const { data, isPending } = useGetTokensPrices({
-    cacheTime: 0,
-  });
   const form = useForm({
     resolver: zodResolver(createConvertSchema()),
     defaultValues: TRADE_PANEL_DEFAULT_VALUES,
     mode: "onChange",
   });
+  const { data, isPending } = useGetTokensPrices();
 
   const initExchangeRate = () => {
     const defaultFromToken = TRADE_PANEL_DEFAULT_VALUES.from.token;
